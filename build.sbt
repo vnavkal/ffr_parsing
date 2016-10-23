@@ -1,9 +1,7 @@
-name := "sbt1"
+name := "FFR Parsing"
 
 version := "1.0"
 
-scalaVersion := "2.11.5"
+scalaVersion := "2.10.4"
 
-libraryDependencies ++= Seq(
-)
-
+libraryDependencies += "org.apache.spark" %% "spark-core" % "2.0.1"
